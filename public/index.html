@@ -15,6 +15,13 @@
   <meta property="og:description" content="New Jersey &amp; Philadelphia's #1 outdoor movie screen rental. Professional inflatable screens 16–52 ft. Packages from $399." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://premiereoutdoormovie.com/new-jersey" />
+  <meta property="og:image" content="https://premiereoutdoormovie.com/wp-content/uploads/outdoor-movie-screen-rental-nj.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Outdoor Movie Screen Rental NJ &amp; Philadelphia | Premiere Outdoor Movies" />
+  <meta name="twitter:description" content="New Jersey &amp; Philadelphia's #1 outdoor movie screen rental. Professional inflatable screens 16–52 ft. Packages from $399." />
+  <meta name="twitter:image" content="https://premiereoutdoormovie.com/wp-content/uploads/outdoor-movie-screen-rental-nj.jpg" />
 
   <!-- Schema: Local Business -->
   <script type="application/ld+json">
@@ -34,6 +41,25 @@
     ],
     "priceRange": "$$",
     "openingHours": "Mo-Su 08:00-21:00",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Jersey",
+      "addressRegion": "NJ",
+      "addressCountry": "US"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "200",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "sameAs": [
+      "https://premiereoutdoormovie.com",
+      "https://www.facebook.com/premiereoutdoormovies",
+      "https://www.instagram.com/premiereoutdoormovies",
+      "https://www.youtube.com/@premiereoutdoormovies"
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Outdoor Movie Packages",
@@ -45,6 +71,72 @@
         { "@type": "Offer", "name": "Indoor Movie Package", "price": "399", "priceCurrency": "USD" }
       ]
     }
+  }
+  </script>
+
+  <!-- Schema: FAQ Page -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does outdoor movie rental cost in New Jersey?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Outdoor movie rental in New Jersey starts at $399 for indoor screenings and $449 for the Backyard Movie Package. Mid-tier packages like the Premiere Movie Package run $799 and the Blockbuster Package is $899. Large-scale drive-in and community festival setups with screens up to 52 feet start at $2,300. All packages include delivery, professional setup, full tech operation during the event, and teardown."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What size inflatable movie screens do you offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Premiere Outdoor Movies offers professional inflatable movie screens ranging from 16 feet to 52 feet wide. Smaller screens (16–20 ft) are ideal for backyard parties and residential events. Mid-size screens (20–30 ft) work well for school movie nights and corporate events. Giant screens (30–52 ft) are used for community festivals, drive-in experiences, and large outdoor events in New Jersey and Philadelphia."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if it rains on the night of my outdoor movie event?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every Premiere Outdoor Movies package includes a complimentary weekday rain date at no extra charge. If weather forces a cancellation, we work with you to reschedule your event. New Jersey weather can be unpredictable, so this guarantee is built into every booking to give clients complete peace of mind."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much space do I need for an outdoor movie setup in my backyard?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For a standard backyard movie night in New Jersey, you need a flat open area of approximately 30 by 30 feet for our entry-level 16-foot screen setup. Larger screen setups require more space — a 20-foot screen needs roughly 40 by 40 feet, while our biggest screens need open fields or large parking areas. Our team will assess your space during the booking process and recommend the right screen size for your venue."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide the movie license for outdoor screenings in New Jersey?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Premiere Outdoor Movies can assist with movie licensing guidance for public or semi-public outdoor screenings in New Jersey. Public screenings of copyrighted films require a public performance license, which is separate from the equipment rental. We advise all clients on licensing requirements and can point you to the appropriate licensing services. Private residential screenings for family and friends typically do not require a commercial license."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How far in advance should I book an outdoor movie rental in New Jersey?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We recommend booking your outdoor movie rental in New Jersey at least 4 to 6 weeks in advance, especially for summer weekends and popular dates like Memorial Day, July 4th, and Labor Day. Corporate events and large community festivals should be booked 2 to 3 months ahead. Last-minute bookings may be available depending on our schedule — contact us to check availability for your date."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What areas of New Jersey and Philadelphia do you serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Premiere Outdoor Movies serves all of New Jersey and the greater Philadelphia area. In New Jersey, we cover Newark, Jersey City, Hoboken, Trenton, Princeton, Edison, Toms River, Cherry Hill, Camden, Atlantic City, and throughout the Jersey Shore. In Pennsylvania, we serve Philadelphia, Bucks County, Montgomery County, Chester County, Delaware County, the Main Line suburbs, and South Jersey. We also service Wilmington, Delaware."
+        }
+      }
+    ]
   }
   </script>
 
@@ -931,6 +1023,91 @@
     }
 
     /* =============================================
+       FAQ
+    ============================================= */
+    #faq {
+      padding: 100px 0;
+      background: var(--bg);
+    }
+
+    .faq-header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .faq-list {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 12px;
+      background: var(--bg2);
+      overflow: hidden;
+      transition: border-color var(--transition);
+    }
+
+    .faq-item:hover { border-color: rgba(245, 197, 24, 0.45); }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 22px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      cursor: pointer;
+      text-align: left;
+      color: var(--text);
+      font-family: var(--font-head);
+      font-size: 1.05rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      line-height: 1.4;
+    }
+
+    .faq-question:hover { color: var(--gold); }
+
+    .faq-icon {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      color: var(--gold);
+      transition: transform var(--transition), background var(--transition);
+    }
+
+    .faq-item.open .faq-icon {
+      transform: rotate(45deg);
+      background: var(--gold);
+      color: #09090f;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease, padding 0.25s ease;
+      padding: 0 28px;
+      color: var(--text-muted);
+      line-height: 1.85;
+      font-size: 0.97rem;
+    }
+
+    .faq-item.open .faq-answer {
+      max-height: 400px;
+      padding-bottom: 24px;
+    }
+
+    /* =============================================
        CTA STRIP
     ============================================= */
     #cta-strip {
@@ -1611,6 +1788,111 @@
       </div>
     </div>
   </section>
+
+  <!-- =============================================
+       FAQ
+  ============================================= -->
+  <section id="faq" aria-label="Frequently asked questions">
+    <div class="container">
+      <div class="faq-header reveal">
+        <div class="section-label">FAQ</div>
+        <h2 class="section-title">Common <span>Questions</span> Answered</h2>
+        <div class="gold-line" style="margin: 20px auto 0;"></div>
+      </div>
+
+      <div class="faq-list" role="list">
+
+        <div class="faq-item reveal" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            How much does outdoor movie rental cost in New Jersey?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+            Outdoor movie rental in New Jersey starts at <strong>$399 for indoor screenings</strong> and <strong>$449 for the Backyard Movie Package</strong>. Mid-tier packages like the Premiere Movie Package run $799 and the Blockbuster Package is $899. Large-scale drive-in and community festival setups with screens up to 52 feet start at $2,300. All packages include delivery, professional setup, full tech operation during the event, and teardown — no hidden fees.
+          </div>
+        </div>
+
+        <div class="faq-item reveal" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            What size inflatable movie screens do you offer?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+            We offer professional inflatable movie screens ranging from <strong>16 feet to 52 feet wide</strong>. Smaller screens (16–20 ft) are ideal for backyard parties and residential events. Mid-size screens (20–30 ft) are perfect for school movie nights and corporate events. Giant screens (30–52 ft) are used for community festivals, drive-in experiences, and large outdoor events across New Jersey and Philadelphia.
+          </div>
+        </div>
+
+        <div class="faq-item reveal" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            What happens if it rains on the night of my event?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+            Every Premiere Outdoor Movies package includes a <strong>complimentary weekday rain date</strong> at no extra charge. If weather forces a cancellation, we work with you to reschedule your event. New Jersey weather can be unpredictable — this guarantee is built into every booking to give you complete peace of mind.
+          </div>
+        </div>
+
+        <div class="faq-item reveal" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            How much space do I need for a backyard movie setup?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+            For a standard backyard movie night, you need a flat open area of approximately <strong>30 × 30 feet</strong> for our entry-level 16-foot screen. A 20-foot screen needs roughly 40 × 40 feet. Larger screens require open fields or parking lots. Our team will assess your space during the booking process and recommend the ideal screen size — no guesswork needed.
+          </div>
+        </div>
+
+        <div class="faq-item reveal" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            Do you handle movie licensing for outdoor screenings?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+            Public or semi-public outdoor screenings of copyrighted films require a <strong>public performance license</strong>, which is separate from the equipment rental. We advise all clients on licensing requirements and can direct you to the appropriate licensing services. Private residential screenings for family and friends typically do not require a commercial license. We'll walk you through the process during booking.
+          </div>
+        </div>
+
+        <div class="faq-item reveal" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            How far in advance should I book?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+            We recommend booking <strong>4 to 6 weeks in advance</strong> for weekend dates, especially during summer (May–September). Holidays like Memorial Day, July 4th, and Labor Day fill up fast. Corporate events and large community festivals should be booked 2–3 months ahead. Last-minute bookings may be available — <a href="tel:+18777674338" style="color:var(--gold);">call us at 877-767-4338</a> to check availability.
+          </div>
+        </div>
+
+        <div class="faq-item reveal" role="listitem">
+          <button class="faq-question" aria-expanded="false">
+            What areas of New Jersey and Philadelphia do you serve?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+            We serve <strong>all of New Jersey</strong> and the greater Philadelphia area. In New Jersey: Newark, Jersey City, Hoboken, Trenton, Princeton, Edison, Toms River, Cherry Hill, Camden, Atlantic City, and throughout the Jersey Shore. In Pennsylvania: Philadelphia, Bucks County, Montgomery County, Chester County, Delaware County, and the Main Line suburbs. We also serve Wilmington, Delaware.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var item = this.closest('.faq-item');
+        var isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item.open').forEach(function(el) {
+          el.classList.remove('open');
+          el.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+        });
+        if (!isOpen) {
+          item.classList.add('open');
+          this.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+  </script>
 
   <!-- =============================================
        CTA STRIP
